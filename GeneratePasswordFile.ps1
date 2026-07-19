@@ -110,7 +110,7 @@ $bstr = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($plain)
 $plainText = [Runtime.InteropServices.Marshal]::PtrToStringAuto($bstr)
 [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($bstr)
 
-Write-Host "Enter the full path without the quotes to save the .dat file (e.g. J:\...\.sysconfig\qh_42a.dat)" -ForegroundColor Yellow
+Write-Host "Enter the full path without the quotes and save using .dat file format (e.g. J:\...\.sysconfig\qh_42a.dat)" -ForegroundColor Yellow
 $outputPath = Read-Host
 
 
