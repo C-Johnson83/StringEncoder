@@ -22,5 +22,5 @@ try {
     $excel.DisplayAlerts = $true
 }
 catch {
-    [System.Windows.Forms.MessageBox]::Show($_.Exception.Message, "Quality Hub", "OK", "Error") | Out-Null
+    [System.Windows.Forms.MessageBox]::Show($_.Exception.Message, "Launcher", "OK", "Error") | Out-Null
 }
