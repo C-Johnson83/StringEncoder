@@ -1,16 +1,15 @@
 @echo off
-title Quality Hub Launcher
+title Encrypted File Launcher
 color 1F
 cls
 
 echo.
 echo ===============================================
-echo            QUALITY HUB LAUNCHER
+echo            ENCRYPTED FILE LAUNCHER
 echo ===============================================
 echo.
 echo Hello %USERNAME%!
 echo.
-echo Opening the Quality Hub...
 echo Please wait...
 echo.
 
