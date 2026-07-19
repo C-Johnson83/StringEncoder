@@ -41,3 +41,10 @@ OpenWorkbook.ps1 runs:
 Workbook opens, fully functional — user never sees the password
 
 One shared OpenWorkbook.ps1 script handles opening any workbook — each workbook just gets its own thin .bat launcher that tells the shared script which workbook and which password file to use.
+
+
+colours.ps1 and the .svg are reference-only, not part of the launch flow:
+
+
+colours.ps1 — visual preview of console color options for the ASCII art banners
+.svg — reference for the color values used in the gradient bars
